@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+h1 {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mapDiv {
+  height: 80vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-bar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 0 2rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  height: 20vh;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar h1 {
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.marker {
+  background-image: url(https://i.imgur.com/oz3r3Wq.png);
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  background-color: yellow;
+  border-radius: 11px;
+  border: 3px solid darkslategray;
+}
+
+.marker-delivery {
+  background-color: red;
+  width: 22px;
+  height: 22px;
 }
